@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: WorkSans;
+    src: url(./assets/fonts/WorkSans-VariableFont_wght.ttf);
+}
+:root{
+    /* Colors */
+    --White: hsl(0, 0%, 100%);
+    --Light-pink: hsl(275, 100%, 97%);
+    --Grayish-purple: hsl(292, 16%, 49%);
+    --Dark-purple: hsl(292, 42%, 14%);
+    --purple: #9b33ca;
+}
+*, ::before, ::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    font-family: WorkSans;
+    background-color: var(--Light-pink);
+    color: var(--Dark-purple);
+}
+img{
+    width: 100%;
+    display: block;
+}
